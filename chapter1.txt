@@ -25,3 +25,6 @@ Dealing with git:
 Ls -a // show hidden files
 Git init // Initialized empty Git repository in /Users/fleury/Desktop/Story/.git/
 Git status // See what files are in the stage area
+Git add <filename>
+Git commit -m "message add by the m flag, always written on the present tense"
+Git log // to se what commits you have made
