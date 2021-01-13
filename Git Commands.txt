@@ -1,0 +1,34 @@
+Dealing with git: 
+Ls -a // show hidden files
+
+//////// Working directory
+Git init // Initialized empty Git repository in /Users/fleury/Desktop/Story/.git/
+Git status // See what files are in the stage area
+
+/////// Staging area
+Git add <filename>
+
+////// Local repository
+Git commit -m "message add by the m flag, always written on the present tense"
+Git log // to se what commits you have made
+Git add . // add all files from the folder
+
+Git diff // to see the changes on the files
+q
+Git checkout // restore to the previous version
+
+
+////// Remote Repository
+////// How to use git remotely
+git remote add origin https://github.com/devfleury/Story.git
+git push -u origin master
+
+git rm --cached -r .
+
+
+
+Git clone https://github.com/austinzheng/swift-2048.git
+
+Git branch alien-plot
+
+Git checkout alien-plot
